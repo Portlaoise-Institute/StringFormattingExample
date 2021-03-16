@@ -1,5 +1,6 @@
 package string.formatting.example;
 
+//Class declaration
 public class StringFormattingExample {
 
     public static void main(String[] args) {
@@ -11,7 +12,7 @@ public class StringFormattingExample {
         //Table Data
         String exam1 = "Java";
         String grade1 = "A";
-        String exam2 = "Phyton";
+        String exam2 = "PHP";
         String grade2 = "B";
         String exam3 = "VB NET";
         String grade3 = "A";
@@ -25,4 +26,5 @@ public class StringFormattingExample {
         System.out.printf("%-15s %10s %n",exam2, grade2);
         System.out.printf("%-15s %10s %n",exam3, grade3);
     } //end main    
+    
 } //end class
